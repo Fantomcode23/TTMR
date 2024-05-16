@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #000; 
+    color: white; /
+    background-image: url("ttmr.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .container {
+    
+  }
+  
+  .auth-container {
+    display: flex;
+  }
+  
+  .auth-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px; 
+  }
+  
+  .background-image {
+    flex: 1;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #996600; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c29900; 
+  }
+  
+  #error-message {
+    display: none; 
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: red; 
+  }
+  
