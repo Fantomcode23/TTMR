@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0; /* Remove default body margin for better layout control */
+  }
+  
+  .container {
+    width: 600px; /* Set a fixed width for the container */
+    margin: 50px auto; /* Center the container horizontally */
+    background-color: #fff; /* White background for the container */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333; /* Darker text color for heading */
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5; /* Adjust line spacing for better readability */
+    color: #666; /* Lighter text color for intro text */
+  }
+  
+  .info-section {
+    margin-top: 20px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Darker text color for labels */
+  }
+  
+  .info-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666; /* Lighter text color for content */
+    margin-bottom: 15px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column; /* Stack contact details vertically */
+    margin-top: 20px;
+  }
+  
+  .contact-detail {
+    margin-bottom: 5px;
+  }
+  
+  .contact-detail a {
+    color: #007bff; /* Blue color for contact links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .contact-detail a:hover {
+    text-decoration: underline; /* Add underline on hover for better UX */
+  }
+  
+  .schedule-option {
+    /* Add styles for a "Schedule Appointment" button or link here 
+       (consider using a button with appropriate background color and hover effects) */
+  }
+  
