@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nan Vaithiyan</title>
+  <link rel="stylesheet" href="fantamcode.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Aadhar Verification</h1>
+    <form id="login-form">
+      <label for="Aadhar Number">Aadhar Number:</label>
+      <input type="text" id="aadhar-number" name="aadhar-number" maxlength="12" pattern="[0-9]{12}" title="Enter 16-digit Aadhar number" required>
+      <span id="error-message"></span>
+      <button type="submit">Verify</button>
+    </form>
+  </div>
+
+  <script src="fantamcode.js"></script>
+</body>
+
+</html>

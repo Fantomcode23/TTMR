@@ -1,0 +1,28 @@
+/* Target the container element for styling */
+.container {
+    max-width: 800px; /* Adjust for larger screens */
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(152, 36, 36, 0.1);
+    background-color: #d72b2b;
+  }
+  
+  /* Other styles from your original CSS */
+  
+  h1 {  /* Removed redundant selector (.heading) */
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007bff; /* Blue heading */
+  }
+  
+  p {  /* Removed redundant selector (.intro) */
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #f0c60c; /* Lighter text color for intro text */
+  }
+  
+  /* Add styles for other elements if needed (.info-section, etc.) */
+  
